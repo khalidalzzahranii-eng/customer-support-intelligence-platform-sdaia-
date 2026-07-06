@@ -1,0 +1,10 @@
+jsonschema
+pandas
+numpy
+qdrant-client
+sentence-transformers
+great_expectations==1.18.2
+openlineage-python==1.50.0
+
+# Required only for executing the generated DAG:
+# apache-airflow>=3.0.0
