@@ -1,0 +1,216 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "min_value": 1,
+          "max_value": 100000
+        },
+        "meta": {},
+        "id": "d29e9afc-7514-4336-b3b5-1a823180f645",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 10
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "column": "article_id"
+        },
+        "meta": {},
+        "id": "c7735fa7-36a6-46ae-8c5d-b872e808962c",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 10,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "column": "article_id"
+        },
+        "meta": {},
+        "id": "e88591a2-f466-49e1-8e43-797d7cb40ec5",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 10,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "column": "status",
+          "value_set": [
+            "published"
+          ]
+        },
+        "meta": {},
+        "id": "12974e83-1385-4039-bc97-01370f4ec18d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 10,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "column": "content_word_count",
+          "min_value": 10.0
+        },
+        "meta": {},
+        "id": "d43c02cc-7869-43d5-bca0-fc6edc03b7ad",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 10,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "knowledge_articles_source_20260706_225457-knowledge_articles_asset_20260706_225457",
+          "column": "search_text"
+        },
+        "meta": {},
+        "id": "52108b69-b4cd-4605-bb6e-c95fac29f18d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 10,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "knowledge_articles_suite_20260706_225457",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 6,
+    "successful_expectations": 6,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.18.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260706T225458.983374Z",
+      "pandas_data_fingerprint": "9927c6e455c4e3387f981a70bbcc0397"
+    },
+    "active_batch_definition": {
+      "datasource_name": "knowledge_articles_source_20260706_225457",
+      "data_connector_name": "fluent",
+      "data_asset_name": "knowledge_articles_asset_20260706_225457",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "b1ba3020-8a2d-4897-9551-53508aed7548",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-07-06T22:54:59.271802+00:00"
+    },
+    "validation_time": "2026-07-06T22:54:59.271802+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

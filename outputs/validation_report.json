@@ -1,0 +1,14 @@
+{
+  "validation_run_at": "2026-07-06T22:36:35.154713+00:00",
+  "valid_ticket_records": 30,
+  "valid_chat_records": 30,
+  "valid_knowledge_articles": 10,
+  "total_valid_records": 70,
+  "total_quarantined_records": 3,
+  "bronze_files": {
+    "ticket": "/content/customer_support_capstone/data/bronze/support_tickets_bronze.jsonl",
+    "chat": "/content/customer_support_capstone/data/bronze/chat_messages_bronze.jsonl",
+    "knowledge_article": "/content/customer_support_capstone/data/bronze/knowledge_articles_bronze.jsonl"
+  },
+  "quarantine_file": "/content/customer_support_capstone/data/quarantine/schema_validation_failures.jsonl"
+}

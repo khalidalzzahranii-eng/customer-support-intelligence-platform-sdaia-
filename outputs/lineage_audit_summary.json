@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-06T22:57:06.615462+00:00",
+  "openlineage_event_file": "/content/customer_support_capstone/logs/lineage/openlineage_events.jsonl",
+  "jobs_recorded": 5,
+  "events_recorded": 10,
+  "start_events": 5,
+  "complete_events": 5,
+  "runs": [
+    {
+      "job_name": "schema_validation_and_bronze_ingestion",
+      "run_id": "019f39a6-480f-7bfe-883f-943b3aed2a6f",
+      "input_count": 4,
+      "output_count": 4
+    },
+    {
+      "job_name": "silver_cleaning_and_quality_scoring",
+      "run_id": "019f39a6-481d-7527-99f6-040b790f5cee",
+      "input_count": 3,
+      "output_count": 4
+    },
+    {
+      "job_name": "gold_analytics_and_knowledge_corpus",
+      "run_id": "019f39a6-4824-7745-8a20-181da4f7de90",
+      "input_count": 3,
+      "output_count": 4
+    },
+    {
+      "job_name": "qdrant_hybrid_rag_indexing",
+      "run_id": "019f39a6-482a-7f6d-9213-0c524c68c2e5",
+      "input_count": 1,
+      "output_count": 3
+    },
+    {
+      "job_name": "great_expectations_quality_gate",
+      "run_id": "019f39a6-4830-7ad6-8f37-c3596a6bae41",
+      "input_count": 3,
+      "output_count": 1
+    }
+  ],
+  "audit_log_file": "/content/customer_support_capstone/logs/audit/rag_query_audit.jsonl",
+  "demo_audit_id": "019f39a6-4836-75bd-8018-3df8ad521bcc"
+}

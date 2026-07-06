@@ -1,0 +1,337 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "min_value": 1,
+          "max_value": 100000
+        },
+        "meta": {},
+        "id": "d086e8df-b09c-449d-94ca-a006e392296a",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 30
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "ticket_id"
+        },
+        "meta": {},
+        "id": "a4e9832c-199e-4fe9-8f0c-f866e28029c4",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "ticket_id"
+        },
+        "meta": {},
+        "id": "efa5bb36-ea6f-4e80-b8c4-b7fa447a84cd",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "priority",
+          "value_set": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        },
+        "meta": {},
+        "id": "7ef7cccf-c92c-4483-ada7-c184706c1ed2",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "status",
+          "value_set": [
+            "open",
+            "pending",
+            "resolved",
+            "closed"
+          ]
+        },
+        "meta": {},
+        "id": "73b413ed-01a5-49b9-ab5c-607dd00e7fcf",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "response_quality_score",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "96810e4e-c7e8-49c6-ae6d-ac95fd530bc0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "processing_time_minutes",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "540142fe-72c0-4799-9aea-afcc33f799cb",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "issue_category"
+        },
+        "meta": {},
+        "id": "d065fdd0-eb7e-4ef6-a38d-a9a598f37ab1",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "support_tickets_source_20260706_225457-support_tickets_asset_20260706_225457",
+          "column": "is_low_quality_response",
+          "mostly": 0.9,
+          "value_set": [
+            false
+          ]
+        },
+        "meta": {},
+        "id": "2d63d9f3-34d5-42fd-b0af-6393f10995b0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 3,
+        "unexpected_percent": 10.0,
+        "partial_unexpected_list": [
+          true,
+          true,
+          true
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 10.0,
+        "unexpected_percent_nonmissing": 10.0,
+        "partial_unexpected_counts": [
+          {
+            "value": true,
+            "count": 3
+          }
+        ],
+        "partial_unexpected_index_list": [
+          7,
+          16,
+          24
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "support_tickets_suite_20260706_225457",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 9,
+    "successful_expectations": 9,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.18.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260706T225458.130196Z",
+      "pandas_data_fingerprint": "c12c4a42b9847a49d7a4560f7377217c"
+    },
+    "active_batch_definition": {
+      "datasource_name": "support_tickets_source_20260706_225457",
+      "data_connector_name": "fluent",
+      "data_asset_name": "support_tickets_asset_20260706_225457",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "3d9e62a7-38be-4fac-8658-e68d030ac423",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-07-06T22:54:58.501252+00:00"
+    },
+    "validation_time": "2026-07-06T22:54:58.501252+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-06T22:59:16.046910+00:00",
+  "dag_id": "customer_support_intelligence_pipeline",
+  "airflow_api": "Airflow 3 TaskFlow API",
+  "schedule": null,
+  "catchup": false,
+  "tasks": [
+    "validate_bronze_ingestion",
+    "validate_silver_transformation",
+    "validate_gold_layer",
+    "enforce_quality_gate",
+    "validate_rag_index",
+    "validate_lineage_and_audit",
+    "publish_pipeline_summary"
+  ],
+  "dependencies": [
+    [
+      "validate_bronze_ingestion",
+      "validate_silver_transformation"
+    ],
+    [
+      "validate_silver_transformation",
+      "validate_gold_layer"
+    ],
+    [
+      "validate_gold_layer",
+      "enforce_quality_gate"
+    ],
+    [
+      "enforce_quality_gate",
+      "validate_rag_index"
+    ],
+    [
+      "validate_rag_index",
+      "validate_lineage_and_audit"
+    ],
+    [
+      "validate_lineage_and_audit",
+      "publish_pipeline_summary"
+    ]
+  ],
+  "quality_gate_behavior": "Blocks RAG indexing when Great Expectations fails",
+  "dag_file": "/content/customer_support_capstone/dags/customer_support_pipeline_dag.py",
+  "syntax_validation": "passed"
+}

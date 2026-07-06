@@ -1,0 +1,27 @@
+{
+  "question": "My order tracking has not updated for four days. What should I do?",
+  "suggested_answer": "When an order is delayed, verify the tracking number and the latest carrier scan. If no tracking update appears for more than 72 hours, open a carrier investigation and provide the customer with a case reference.",
+  "primary_source": "Knowledge Base Article KB-0003",
+  "citations": [
+    "Knowledge Base Article KB-0003",
+    "Historical Support Ticket TKT-00023"
+  ],
+  "evidence": [
+    {
+      "citation": "Knowledge Base Article KB-0003",
+      "chunk_id": "KB-0003::chunk-1",
+      "title": "Delayed order investigation process",
+      "source_type": "knowledge_base",
+      "reranker_score": 3.3652,
+      "text": "When an order is delayed, verify the tracking number and the latest carrier scan. If no tracking update appears for more than 72 hours, open a carrier investigation and provide the customer with a case reference."
+    },
+    {
+      "citation": "Historical Support Ticket TKT-00023",
+      "chunk_id": "HISTORY-TKT-00023::chunk-1",
+      "title": "Order delivery is delayed",
+      "source_type": "historical_ticket",
+      "reranker_score": 7.0682,
+      "text": "Customer issue: The tracking information has not changed for four days and my order has not arrived. Recommended response: We will verify the carrier tracking information and open an investigation because there has been no update for more than 72 hours."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "validation_run_at": "2026-07-06T22:54:59.302685+00:00",
+  "great_expectations_version": "1.18.2",
+  "quality_gate_passed": true,
+  "suites": {
+    "support_tickets_suite_20260706_225457": {
+      "success": true,
+      "row_count": 30,
+      "expectations": [
+        {
+          "expectation": "expect_table_row_count_to_be_between",
+          "success": true,
+          "element_count": null,
+          "unexpected_count": null,
+          "unexpected_percent": null
+        },
+        {
+          "expectation": "expect_column_values_to_not_be_null",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_unique",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_in_set",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_in_set",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_between",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_between",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_not_be_null",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_in_set",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 3,
+          "unexpected_percent": 10.0
+        }
+      ]
+    },
+    "chat_messages_suite_20260706_225457": {
+      "success": true,
+      "row_count": 30,
+      "expectations": [
+        {
+          "expectation": "expect_table_row_count_to_be_between",
+          "success": true,
+          "element_count": null,
+          "unexpected_count": null,
+          "unexpected_percent": null
+        },
+        {
+          "expectation": "expect_column_values_to_not_be_null",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_unique",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_in_set",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_between",
+          "success": true,
+          "element_count": 30,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        }
+      ]
+    },
+    "knowledge_articles_suite_20260706_225457": {
+      "success": true,
+      "row_count": 10,
+      "expectations": [
+        {
+          "expectation": "expect_table_row_count_to_be_between",
+          "success": true,
+          "element_count": null,
+          "unexpected_count": null,
+          "unexpected_percent": null
+        },
+        {
+          "expectation": "expect_column_values_to_not_be_null",
+          "success": true,
+          "element_count": 10,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_unique",
+          "success": true,
+          "element_count": 10,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_in_set",
+          "success": true,
+          "element_count": 10,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_be_between",
+          "success": true,
+          "element_count": 10,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        },
+        {
+          "expectation": "expect_column_values_to_not_be_null",
+          "success": true,
+          "element_count": 10,
+          "unexpected_count": 0,
+          "unexpected_percent": 0.0
+        }
+      ]
+    }
+  }
+}

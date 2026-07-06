@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Customer Support Chat Message",
+  "type": "object",
+  "required": [
+    "message_id",
+    "conversation_id",
+    "customer_id",
+    "role",
+    "message",
+    "event_time"
+  ],
+  "properties": {
+    "message_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "conversation_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "customer_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "customer",
+        "agent",
+        "system"
+      ]
+    },
+    "message": {
+      "type": "string",
+      "minLength": 2
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "ar"
+      ]
+    },
+    "event_time": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

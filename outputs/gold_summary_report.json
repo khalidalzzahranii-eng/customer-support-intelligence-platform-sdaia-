@@ -1,0 +1,15 @@
+{
+  "gold_run_at": "2026-07-06T22:45:01.290233+00:00",
+  "gold_ticket_records": 30,
+  "rag_corpus_documents": 37,
+  "knowledge_base_documents": 10,
+  "historical_ticket_documents": 27,
+  "contradiction_alerts": 0,
+  "gold_files": {
+    "tickets": "/content/customer_support_capstone/data/gold/support_tickets_gold.jsonl",
+    "knowledge_corpus": "/content/customer_support_capstone/data/gold/knowledge_corpus_gold.jsonl",
+    "contradictions": "/content/customer_support_capstone/data/gold/contradiction_alerts.jsonl",
+    "support_kpis": "/content/customer_support_capstone/data/gold/support_kpis_gold.json"
+  },
+  "contradiction_detection_method": "best_article_context_matching"
+}

@@ -1,0 +1,191 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "chat_messages_source_20260706_225457-chat_messages_asset_20260706_225457",
+          "min_value": 1,
+          "max_value": 100000
+        },
+        "meta": {},
+        "id": "169f3b68-11a6-427d-9dac-c8855eb01cf3",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 30
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "chat_messages_source_20260706_225457-chat_messages_asset_20260706_225457",
+          "column": "message_id"
+        },
+        "meta": {},
+        "id": "2977373c-114a-4395-a2dd-8c9e3fa4facf",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "chat_messages_source_20260706_225457-chat_messages_asset_20260706_225457",
+          "column": "message_id"
+        },
+        "meta": {},
+        "id": "31cccb96-8c01-478e-b980-2d133c7539b3",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "chat_messages_source_20260706_225457-chat_messages_asset_20260706_225457",
+          "column": "role",
+          "value_set": [
+            "customer",
+            "agent",
+            "system"
+          ]
+        },
+        "meta": {},
+        "id": "af093f9c-9d9d-4a1a-8977-da041fbe2065",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "chat_messages_source_20260706_225457-chat_messages_asset_20260706_225457",
+          "column": "message_word_count",
+          "min_value": 1.0
+        },
+        "meta": {},
+        "id": "936cdf85-cc84-4b3f-8ebb-cd6cdcf4ff1d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 30,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "chat_messages_suite_20260706_225457",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 5,
+    "successful_expectations": 5,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.18.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260706T225458.632045Z",
+      "pandas_data_fingerprint": "55e824dd1fdf7efd7c53ab4c3b3fb318"
+    },
+    "active_batch_definition": {
+      "datasource_name": "chat_messages_source_20260706_225457",
+      "data_connector_name": "fluent",
+      "data_asset_name": "chat_messages_asset_20260706_225457",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "89e53154-1f21-4fbd-a08c-50967af38178",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-07-06T22:54:58.840081+00:00"
+    },
+    "validation_time": "2026-07-06T22:54:58.840081+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

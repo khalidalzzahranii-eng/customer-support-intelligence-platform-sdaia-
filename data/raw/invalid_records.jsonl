@@ -1,0 +1,3 @@
+{"record_type": "ticket", "data": {"ticket_id": "BAD-001", "customer_id": "CUST-999", "subject": "Missing description", "priority": "high", "status": "open", "channel": "email", "created_at": "2026-07-06T22:35:51.408878+00:00"}}
+{"record_type": "chat", "data": {"message_id": "BAD-MSG-001", "conversation_id": "CONV-BAD", "customer_id": "CUST-BAD", "role": "unknown_role", "message": "Test message", "event_time": "2026-07-06T22:35:51.408896+00:00"}}
+{"record_type": "knowledge_article", "data": {"article_id": "BAD-KB-001", "title": "Empty article", "content": "", "category": "unknown", "version": 0, "status": "published", "updated_at": "2026-07-06T22:35:51.408905+00:00"}}

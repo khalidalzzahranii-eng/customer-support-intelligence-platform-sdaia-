@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-07-06T22:50:54.663046+00:00",
+  "collection_name": "customer_support_knowledge",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "vector_dimension": 384,
+  "source_documents": 37,
+  "indexed_chunks": 37,
+  "retrieval_methods": [
+    "dense_qdrant",
+    "bm25",
+    "reciprocal_rank_fusion",
+    "cross_encoder_reranking"
+  ]
+}

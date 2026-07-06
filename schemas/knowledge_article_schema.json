@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knowledge Base Article",
+  "type": "object",
+  "required": [
+    "article_id",
+    "title",
+    "content",
+    "category",
+    "version",
+    "status",
+    "updated_at"
+  ],
+  "properties": {
+    "article_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5
+    },
+    "content": {
+      "type": "string",
+      "minLength": 50
+    },
+    "category": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "published",
+        "archived"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

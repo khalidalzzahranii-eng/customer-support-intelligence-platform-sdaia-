@@ -1,0 +1,23 @@
+{
+  "silver_run_at": "2026-07-06T22:43:03.839391+00:00",
+  "ticket_records": 30,
+  "chat_message_records": 30,
+  "knowledge_articles": 10,
+  "duplicates_removed": {
+    "tickets": 0,
+    "chat_messages": 0,
+    "knowledge_articles": 0
+  },
+  "response_quality": {
+    "high": 27,
+    "medium": 0,
+    "low": 3
+  },
+  "pii_masking_applied": true,
+  "silver_files": {
+    "tickets": "/content/customer_support_capstone/data/silver/support_tickets_silver.jsonl",
+    "chat_messages": "/content/customer_support_capstone/data/silver/chat_messages_silver.jsonl",
+    "knowledge_articles": "/content/customer_support_capstone/data/silver/knowledge_articles_silver.jsonl"
+  },
+  "low_quality_output": "/content/customer_support_capstone/outputs/low_quality_responses.jsonl"
+}

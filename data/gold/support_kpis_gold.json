@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-06T22:45:01.282758+00:00",
+  "total_tickets": 30,
+  "total_chat_messages": 30,
+  "total_conversations": 15,
+  "published_knowledge_articles": 10,
+  "average_processing_time_minutes": 69.1,
+  "sla_breach_count": 2,
+  "sla_compliance_rate": 93.33,
+  "low_quality_response_count": 3,
+  "low_quality_response_rate": 10.0,
+  "priority_distribution": {
+    "low": 11,
+    "medium": 17,
+    "high": 2
+  },
+  "status_distribution": {
+    "open": 15,
+    "resolved": 11,
+    "pending": 4
+  },
+  "channel_distribution": {
+    "web": 11,
+    "email": 10,
+    "chat": 9
+  },
+  "quality_distribution": {
+    "high": 27,
+    "low": 3
+  },
+  "category_distribution": {
+    "account_access": 6,
+    "refunds": 3,
+    "shipping": 6,
+    "billing": 3,
+    "subscriptions": 3,
+    "security": 3,
+    "technical": 3,
+    "privacy": 3
+  }
+}
